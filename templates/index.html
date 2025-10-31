@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="../static/styles.css" rel="stylesheet">
+        <script src="../static/script.js"></script>
+        <title>ACRSS Attendance</title>
+    </head>
+    <body>
+        <form action="/" method="post">
+            <input name="bt" type="submit" value="late">
+            <input name="bt" type="submit" value="leaving">
+        </form>
+        <p>{{md}}</p>
+        <form action="/scan" method=post>
+            <input autocomplete="off" style="opacity: 0;" name="barcode" type="text" autofocus>
+        </form>
+    </body>
+</html>
